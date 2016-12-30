@@ -1,0 +1,1116 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/helper/animate.js",
+			"settings":
+			{
+				"buffer_size": 5168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "example/feature-collection/two-way-bind-betweent-component.html",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "example/tmp/tab-demo/tabs.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "example/tmp/mock.js",
+			"settings":
+			{
+				"buffer_size": 789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/regular.js",
+			"settings":
+			{
+				"buffer_size": 124008,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n  \"name\": \"regularjs\",\n  \"version\": \"0.3.1\",\n  \"author\": {\n    \"name\": \"leeluolee\"\n  },\n  \"description\": \"\",\n  \"license\": \"MIT\",\n  \"keywords\": [\n    \"template\",\n    \"data-binding\"\n  ],\n  \"main\": \"src/index.js\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/regularjs/regular\"\n  },\n  \"homepage\": \"http://regularjs.github.io\",\n  \"scripts\": {\n    \"test\": \"gulp travis --phantomjs\"\n  },\n  \"bin\": {\n    \"regular\": \"./bin/regular\"\n  },\n  \"devDependencies\": {\n    \"gulp-shell\": \"^0.2.9\",\n    \"gulp-webpack\": \"^1.0.0\",\n    \"gulp\": \"3.6.x\",\n    \"gulp-component\": \"~0.1.8\",\n    \"gulp-uglify\": \"~0.2.1\",\n    \"gulp-jshint\": \"~1.5.3\",\n    \"gulp-mocha\": \"~0.4.1\",\n    \"gulp-istanbul\": \"~0.1.1\",\n    \"gulp-util\": \"~2.2.14\",\n    \"through2\": \"~0.4.1\",\n    \"mocha\": \"~1.18.2\",\n    \"expect.js\": \"~0.3.1\",\n    \"karma\": \"~0.12.6\",\n    \"karma-mocha\": \"~0.1.3\",\n    \"karma-phantomjs-launcher\": \"~0.1.4\",\n    \"karma-coverage\": \"~0.2.4\",\n    \"karma-ie-launcher\": \"~0.1.5\",\n    \"karma-chrome-launcher\": \"~0.1.4\",\n    \"karma-firefox-launcher\": \"~0.1.3\"\n  }\n}",
+			"file": "package.json",
+			"file_size": 1055,
+			"file_write_time": 130706994210000000,
+			"settings":
+			{
+				"buffer_size": 1055,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/parser/Parser.js",
+			"settings":
+			{
+				"buffer_size": 16200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "example/pager/pager.js",
+			"settings":
+			{
+				"buffer_size": 2002,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 169.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"color the",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"conver",
+				"SublimeHighlight: convert to RTF"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"thme",
+				"Themr: List themes"
+			],
+			[
+				"coptr",
+				"SublimeHighlight: copy to clipboard as RTF"
+			],
+			[
+				"copy r",
+				"SublimeHighlight: copy to clipboard as RTF"
+			],
+			[
+				"crtf",
+				"SublimeHighlight: convert to RTF"
+			],
+			[
+				"high",
+				"SublimeHighlight: copy to clipboard as RTF"
+			],
+			[
+				"hi",
+				"SublimeHighlight: copy to clipboard as HTML"
+			],
+			[
+				"hight",
+				"SublimeHighlight: copy to clipboard as RTF"
+			],
+			[
+				"highli",
+				"SublimeHighlight: copy to clipboard as HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"adada",
+			"dada",
+			"`dadada",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/leeluolee/code/regularjs/regular",
+		"/Users/leeluolee/code/regularjs/regular/dist",
+		"/Users/leeluolee/code/regularjs/regular/example",
+		"/Users/leeluolee/code/regularjs/regular/example/feature-collection",
+		"/Users/leeluolee/code/regularjs/regular/example/modal",
+		"/Users/leeluolee/code/regularjs/regular/example/pager",
+		"/Users/leeluolee/code/regularjs/regular/example/syntax-test",
+		"/Users/leeluolee/code/regularjs/regular/example/tmp",
+		"/Users/leeluolee/code/regularjs/regular/example/tmp/tab-demo",
+		"/Users/leeluolee/code/regularjs/regular/example/todomvc",
+		"/Users/leeluolee/code/regularjs/regular/src",
+		"/Users/leeluolee/code/regularjs/regular/src/parser",
+		"/Users/leeluolee/code/regularjs/regular/test"
+	],
+	"file_history":
+	[
+		"/Users/leeluolee/code/regularjs/regular/test/spec/browser-animate.js",
+		"/Users/leeluolee/code/regularjs/regular/src/Regular.js",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/test-lexer.js",
+		"/Users/leeluolee/code/regularjs/regular/example/tmp/tab-demo/step-1.html",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/colors/example.html",
+		"/Users/leeluolee/code/regularjs/regular/src/walkers.js",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/browser-if.js",
+		"/Users/leeluolee/Library/Application Support/Sublime Text 3/Packages/User/SublimeHighlight.sublime-settings",
+		"/Users/leeluolee/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/leeluolee/code/regularjs/regular/dist/regular-parser.js",
+		"/Users/leeluolee/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/leeluolee/code/regularjs/regular/src/directive/animation.js",
+		"/Users/leeluolee/code/regularjs/regular/example/tmp/new.html",
+		"/Users/leeluolee/code/regularjs/regular/dist/regular.js",
+		"/Users/leeluolee/Library/Application Support/Sublime Text 3/Packages/Highlight/SublimeHighlight.sublime-settings",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/browser-syntax.js",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/browser-nested.js",
+		"/Users/leeluolee/code/regularjs/regular/src/helper/watcher.js",
+		"/Users/leeluolee/code/regularjs/regular/src/helper/extend.js",
+		"/Users/leeluolee/code/regularjs/regular/src/env.js",
+		"/Users/leeluolee/code/regularjs/regular/example/tmp/tab-demo/step-2.html",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/socket.io/node_modules/redis/generate_commands.js",
+		"/Users/leeluolee/code/regularjs/regular/src/util.js",
+		"/Users/leeluolee/code/regularjs/regular/src/dom.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/mocha/lib/reporters/list.js",
+		"/Users/leeluolee/code/regularjs/regular/LICENSE",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/log4js/test/setLevel-asymmetry-test.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-component/test/test.js",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/test-event.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-webpack/node_modules/webpack/node_modules/enhanced-resolve/test/fixtures/dirOrFile.js",
+		"/Users/leeluolee/code/regularjs/regular/test/runner/vendor/util.js",
+		"/Users/leeluolee/code/regularjs/regular/example/tmp/ngmodel.html",
+		"/Users/leeluolee/code/work/pat/scripts/browserify-regular.js",
+		"/Users/leeluolee/code/work/pat/package.json",
+		"/Users/leeluolee/code/work/pat/app/client/js/component/notify/notify.rglc",
+		"/Users/leeluolee/code/work/pat/app/client/js/component/progress/progress.rglc",
+		"/Users/leeluolee/code/work/pat/app/server/service/test.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/service/exampreview.js",
+		"/Users/leeluolee/code/work/pat/node_modules/gulp-rev-all/node_modules/sinon/lib/sinon/util/fake_server_with_clock.js",
+		"/Users/leeluolee/code/work/pat/node_modules/stateman/test/fixtures/server.js",
+		"/Users/leeluolee/code/work/pat/node_modules/jquery/src/serialize.js",
+		"/Users/leeluolee/code/work/pat/node_modules/browserify/test/standalone_events.js",
+		"/Users/leeluolee/code/work/pat/node_modules/es5-shim/shims.json",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.simple.rglc",
+		"/Users/leeluolee/code/work/pat/app/server/view/test.ejs",
+		"/Users/leeluolee/code/work/pat/node_modules/reqwest/make/tests.js",
+		"/Users/leeluolee/code/work/pat/node_modules/connect-redis/test.js",
+		"/Users/leeluolee/code/work/pat/node_modules/codemirror/test2.html",
+		"/Users/leeluolee/code/work/pat/node_modules/browserify/test/tr_error.js",
+		"/Users/leeluolee/code/work/pat/node_modules/jquery/src/var/toString.js",
+		"/Users/leeluolee/百度云同步盘/netease/weekly/周报-前端技术组-2015.02.04.txt",
+		"/Users/leeluolee/code/work/pat/node_modules/regularjs/dist/regular.min.js",
+		"/Users/leeluolee/code/work/pat/node_modules/.bin/regular",
+		"/Users/leeluolee/code/work/pat/node_modules/gulp-jshint/node_modules/rcloader/node_modules/lodash/internal/reEscape.js",
+		"/Users/leeluolee/code/work/pat/README.md",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/notfound.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/view.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/list.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/rank.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.list.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.complex.result.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.simple.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.complex.detail.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.complex.submit.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.complex.js",
+		"/Users/leeluolee/code/work/pat/app/server/router.js",
+		"/Users/leeluolee/code/work/pat/scripts/route.js",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.complex.rglc",
+		"/Users/leeluolee/code/work/pat/app/client/mcss/module.mcss",
+		"/Users/leeluolee/code/work/pat/app/client/mcss/index.mcss",
+		"/Users/leeluolee/code/work/pat/gulpfile.js",
+		"/Users/leeluolee/code/work/pat/node_modules/regularify/index.js",
+		"/Users/leeluolee/.Trash/exam.complex.detail.xhtml",
+		"/Users/leeluolee/code/work/pat/app/client/js/module/test/exam.complex.detail.xhtml",
+		"/Users/leeluolee/code/work/pat/app/client/js/component/loginModal/loginModal.html",
+		"/Users/leeluolee/code/work/pat/node_modules/mysql/package.json",
+		"/Users/leeluolee/code/leeluolee.github.com/source/slide/dsl/dsl.md",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/mocha/lib/utils.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-jshint/test/util.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/domhandler/test/cases/04-unescaped_in_script.json",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/log4js/examples/flush-on-exit.js",
+		"/Users/leeluolee/code/regularjs/regular/dist/regular.min.js",
+		"/Users/leeluolee/code/regularjs/regular/src/node.js",
+		"/Users/leeluolee/code/regularjs/regular/src/index.js",
+		"/Users/leeluolee/code/regularjs/regular/example/todomvc/index.html",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/http-proxy/node_modules/utile/test/utile-test.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/baz/doom.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/connect/lib/middleware/methodOverride.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/source-map/test/source-map/test-dog-fooding.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/http-proxy/test/core/simple/test-http-eof-on-connect.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/through2/through2.js",
+		"/Users/leeluolee/code/regularjs/regular/example/feature-collection/two-way-bind-betweent-component.html",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-webpack/node_modules/webpack/lib/WarnCaseSensitiveModulesPlugin.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/lib/browser.js",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/browser-watcher.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/lib/browser_result.js",
+		"/Users/leeluolee/code/regularjs/regular/bower.json",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-webpack/node_modules/webpack/node_modules/node-libs-browser/node_modules/browserify-zlib/node_modules/pako/test/inflate_cover_ported.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-webpack/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash._isnative/README.md",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/browser-directive.js",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/browser-bugfix.js",
+		"/Users/leeluolee/code/regularjs/regular/test/regular.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/karma/node_modules/http-proxy/benchmark/websockets-throughput.js",
+		"/Users/leeluolee/code/regularjs/regular/,",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-webpack/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/hexpp.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-webpack/node_modules/webpack/node_modules/node-libs-browser/node_modules/http-browserify/example/post/server.js",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-webpack/node_modules/webpack/node_modules/node-libs-browser/node_modules/vm-browserify/example/run/entry.js",
+		"/Users/leeluolee/code/regularjs/regular/test/spec/browser-include.js",
+		"/Users/leeluolee/code/regularjs/regular/src/helper/parse.js",
+		"/Users/leeluolee/code/regularjs/regular/package.json",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-webpack/node_modules/webpack/lib/WebpackOptionsApply.js",
+		"/Users/leeluolee/code/regularjs/regular/bin/regular",
+		"/Users/leeluolee/code/regularjs/regular/node_modules/gulp-util/lib/replaceExtension.js",
+		"/Users/leeluolee/code/regularjs/regular/README.md",
+		"/Users/leeluolee/百度云同步盘/netease/mooc-source.md"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 92.5,
+		"where_history":
+		[
+			"/Users/leeluolee/code/regularjs/regular/src",
+			"/Users/leeluolee/code/work/pat/app/client/js/module",
+			"/Users/leeluolee/code/leeluolee.github.com/themes",
+			"/Users/leeluolee/code/regularjs/regular/src",
+			"/Users/leeluolee/code/regularjs/regular/test",
+			"/Users/leeluolee/code/regularjs/regular/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"toLower",
+			"nav",
+			"100",
+			"total",
+			"html",
+			"rrt",
+			"autumn",
+			"inline",
+			"nativei",
+			"molaika",
+			"autumn",
+			"undefined",
+			"destroies",
+			"undefined",
+			"haha",
+			"        // var $node = $(\"div.hello\",container)\n        // expect($node.attr(\"title\")).to.equal(\"haha\");\n        // expect($node.attr(\"title2\")).to.equal(undefined);\n        // component.$update(\"name\", true)\n        // expect($node.attr(\"title2\")).to.equal(\"haha2\");\n\n        // destroy(component, container);\n",
+			"tabs",
+			"title",
+			"prifile",
+			"home",
+			"next",
+			"issue26",
+			"keypress",
+			"username",
+			"question",
+			"app",
+			"exam",
+			"test",
+			"getAns",
+			"element",
+			"option",
+			"answer",
+			"regularify的requirejs",
+			"tpl",
+			"class",
+			"tpl",
+			"html",
+			"min",
+			"webkit",
+			"none",
+			"ipt",
+			"item",
+			"div",
+			"form",
+			"ctrl",
+			"code",
+			"END",
+			"wrapComponent",
+			"code",
+			"this",
+			"m-hd",
+			"regularify",
+			");",
+			"Project",
+			"####",
+			"Puer",
+			"分类",
+			"composite",
+			"single",
+			"But",
+			"name",
+			"href",
+			"Function",
+			"regularjs",
+			"Regular",
+			"regular",
+			"library",
+			"parser",
+			"\n        ",
+			"Regular",
+			"isloate",
+			"getElement",
+			"containerAll",
+			"container",
+			"todo",
+			"with",
+			"email",
+			"parsed",
+			"first",
+			"sync",
+			"parsed",
+			"scope",
+			"  \"",
+			"combine",
+			"exports",
+			"module.exports",
+			"Regular.parse",
+			"Regular",
+			"edi",
+			"setReg",
+			"isolate",
+			"* ",
+			"this",
+			"isolate",
+			"===",
+			"scope",
+			"ENDD",
+			"$context",
+			"typeOf",
+			"context",
+			"\\$context",
+			"Regular",
+			"defaults",
+			"needComputed",
+			"const",
+			"constant",
+			"touchExpression",
+			"expr",
+			"touched",
+			"set",
+			"expr",
+			"value",
+			"typeof",
+			"var",
+			"  }",
+			"extra",
+			"event",
+			"Event",
+			"){",
+			"host",
+			"\";",
+			"extName",
+			"0",
+			"arguments",
+			"apply",
+			"();",
+			"namespace",
+			"hasOwnProperty"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/leeluolee/code/regularjs/regular"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/helper/animate.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									"dd",
+									"mode_internal_normal",
+									null
+								],
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "example/feature-collection/two-way-bind-betweent-component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								504
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "example/tmp/tab-demo/tabs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 5
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "example/tmp/mock.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 33
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dist/regular.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/parser/Parser.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								664,
+								664
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 14
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "example/pager/pager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2002,
+								2002
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 177.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 28.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.vi_out":
+	{
+		"height": 92.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"brow",
+				"test/spec/browser-if.js"
+			],
+			[
+				"walker",
+				"src/walkers.js"
+			],
+			[
+				"exam",
+				"node_modules/karma/node_modules/colors/example.html"
+			],
+			[
+				"dom",
+				"src/dom.js"
+			],
+			[
+				"testlex",
+				"test/spec/test-lexer.js"
+			],
+			[
+				"r",
+				"src/Regular.js"
+			],
+			[
+				"dom.js",
+				"src/dom.js"
+			],
+			[
+				"util",
+				"src/util.js"
+			],
+			[
+				"animate",
+				"src/helper/animate.js"
+			],
+			[
+				"animat",
+				"src/directive/animation.js"
+			],
+			[
+				"browser-ani",
+				"test/spec/browser-animate.js"
+			],
+			[
+				"regular",
+				"src/Regular.js"
+			],
+			[
+				"servicete",
+				"app/server/service/test.js"
+			],
+			[
+				"regularindex",
+				"node_modules/regularify/index.js"
+			],
+			[
+				"router",
+				"app/client/js/router.js"
+			],
+			[
+				"ut",
+				"test/runner/vendor/util.js"
+			],
+			[
+				"browser-sy",
+				"test/spec/browser-syntax.js"
+			],
+			[
+				"form",
+				"src/directive/form.js"
+			],
+			[
+				"pars",
+				"src/parser/Parser.js"
+			],
+			[
+				"uti",
+				"src/util.js"
+			],
+			[
+				"par",
+				"src/parser/Parser.js"
+			],
+			[
+				"todomvc",
+				"example/todomvc/index.html"
+			],
+			[
+				"wacher",
+				"src/helper/watcher.js"
+			],
+			[
+				"brwo-ne",
+				"test/spec/browser-nested.js"
+			],
+			[
+				"regul",
+				"src/Regular.js"
+			],
+			[
+				"re",
+				"src/Regular.js"
+			],
+			[
+				"anim",
+				"src/directive/animation.js"
+			],
+			[
+				"watch",
+				"src/helper/watcher.js"
+			],
+			[
+				"pa",
+				"src/parser/Parser.js"
+			],
+			[
+				"parser",
+				"src/parser/Parser.js"
+			],
+			[
+				"watc",
+				"src/helper/watcher.js"
+			],
+			[
+				"regular.js",
+				"src/Regular.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "lee",
+		"selected_items":
+		[
+			[
+				"lee",
+				"~/code/regularjs/regular/example/tmp/leeluolee.sublime-project"
+			],
+			[
+				"regul",
+				"~/code/regularjs/rgl.sublime-project"
+			],
+			[
+				"l",
+				"~/code/regularjs/regular/example/tmp/leeluolee.sublime-project"
+			],
+			[
+				"",
+				"~/code/puer/untitled.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "toLower",
+		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_last_char_search_command": "vi_f",
+		"_vintageous_last_character_search": "r",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Users/leeluolee/code/regularjs/regular/example/feature-collection"
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link href="../lib/regular-ui/dist/css/regular-ui.default.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header" class="header">头</div>
+    <div id="main">
+        <div id="side" class="side-nav f-fl">左</div>
+        <div id="app" class="content">右</div>
+    </div>
+
+    <!-- base -->
+    <script src="../lib/regularjs/dist/regular.min.js"></script>
+    <script src="../lib/regular-ui/dist/js/regular-ui.min.js"></script>
+
+    <!-- 基于stateman 和 Regular的单页应用框架 -->
+    <script src="../lib/regular-state/restate-full.js"></script>
+
+    <!-- module -->
+    <script src="module/index.js"></script>
+
+    <script>
+        var stateman = restate({
+            view: document.getElementById("app"),
+            Component: Regular
+        });
+
+        stateman.state(
+            "index",
+            SBPage.Index, {url: "/"}
+        )
+            .start({root: "/"})
+    </script>
+</body>
+</html>
