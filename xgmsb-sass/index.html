@@ -10,7 +10,7 @@
     <div id="header" class="header"></div>
     <div id="main">
         <div id="side" class="side-nav"></div>
-        <div id="app" class="content">花样百出</div>
+        <div id="app" class="content"></div>
     </div>
 
     <!-- base -->
@@ -18,7 +18,8 @@
     <script src="../lib/regular-ui/dist/js/regular-ui.min.js"></script>
 
     <!-- 基于stateman 和 Regular的单页应用框架 -->
-
+    <script src="../lib/regular-state/restate-full.js"></script>
+    <script src="../lib/stateman/stateman.min.js"></script>
 
     <!-- 公共模块 -->
     <script src="common/header.js"></script>
@@ -27,9 +28,8 @@
     <!-- module -->
     <script src="module/index.js"></script>
     <script src="module/menu1.js"></script>
-
-    <script src="../lib/regular-state/restate-full.js"></script>
-    <script src="../lib/stateman/stateman.min.js"></script>
+    <script src="module/menu2.js"></script>
+    <script src="module/menu3.js"></script>
 
     <script>
         var stateman = restate({
@@ -38,8 +38,11 @@
         });
 
         stateman
-            .state("index",SBPage.Index, {url: "/"})
-            .state("menu1", SBPage.Menu1)
+            .start({root: "/"})
+            .state("index", SBPage.Index)
+            .state("menu1", SBPage.menu1)
+            .state("menu2", SBPage.menu2)
+            .state("menu3", SBPage.menu3)
 
     </script>
 </body>
