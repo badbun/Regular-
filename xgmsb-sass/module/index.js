@@ -7,7 +7,12 @@
     }
 
     var Index = Regular.extend({
-       template: 'hello word!123'
+        template: __inline("../template/index.html"),
+        init: function () {
+        },
+        config: function () {
+            this.data.username = 'this is test';
+        }
     });
 
     SBPage.Index = Index;

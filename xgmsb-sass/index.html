@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>title</title>
     <link href="../lib/regular-ui/dist/css/regular-ui.default.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="header" class="header">头</div>
+    <div id="header" class="header"></div>
     <div id="main">
-        <div id="side" class="side-nav f-fl">左</div>
-        <div id="app" class="content">右</div>
+        <div id="side" class="side-nav"></div>
+        <div id="app" class="content">花样百出</div>
     </div>
 
     <!-- base -->
@@ -17,10 +18,18 @@
     <script src="../lib/regular-ui/dist/js/regular-ui.min.js"></script>
 
     <!-- 基于stateman 和 Regular的单页应用框架 -->
-    <script src="../lib/regular-state/restate-full.js"></script>
+
+
+    <!-- 公共模块 -->
+    <script src="common/header.js"></script>
+    <script src="common/side.js"></script>
 
     <!-- module -->
     <script src="module/index.js"></script>
+    <script src="module/menu1.js"></script>
+
+    <script src="../lib/regular-state/restate-full.js"></script>
+    <script src="../lib/stateman/stateman.min.js"></script>
 
     <script>
         var stateman = restate({
@@ -28,11 +37,10 @@
             Component: Regular
         });
 
-        stateman.state(
-            "index",
-            SBPage.Index, {url: "/"}
-        )
-            .start({root: "/"})
+        stateman
+            .state("index",SBPage.Index, {url: "/"})
+            .state("menu1", SBPage.Menu1)
+
     </script>
 </body>
 </html>
