@@ -4,7 +4,7 @@
 (function () {
     var side = Regular.extend({
 
-        template: __inline("../template/side.html"),
+        template: __inline("../template/common/side.html"),
 
         init: function () {
         },

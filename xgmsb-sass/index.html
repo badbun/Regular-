@@ -7,29 +7,37 @@
     <link href="./css/style.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="header" class="header"></div>
-    <div id="main">
-        <div id="side" class="side-nav"></div>
-        <div id="app" class="content"></div>
+    <div id="header" style="border:1px solid red"></div>
+    <div id="main" style="border:1px solid red">
+        <div id="side" style="border:1px solid blue"></div>
+        <div id="app" style="border:1px solid blue"></div>
     </div>
 
     <!-- base -->
     <script src="../lib/regularjs/dist/regular.min.js"></script>
     <script src="../lib/regular-ui/dist/js/regular-ui.min.js"></script>
+    <script src="../lib/reqwest/reqwest.min.js"></script>
 
     <!-- 基于stateman 和 Regular的单页应用框架 -->
     <script src="../lib/regular-state/restate-full.js"></script>
     <script src="../lib/stateman/stateman.min.js"></script>
 
-    <!-- 公共模块 -->
-    <script src="common/header.js"></script>
-    <script src="common/side.js"></script>
+    <!-- service -->
+    <script src="service/appService.js"></script>
+
+    <!-- 单元 -->
+    <script src="utils/constUtils.js"></script>
+    <script src="utils/cacheUtils.js"></script>
 
     <!-- module -->
     <script src="module/index.js"></script>
     <script src="module/menu1.js"></script>
     <script src="module/menu2.js"></script>
     <script src="module/menu3.js"></script>
+
+    <!-- 公共模块 -->
+    <script src="common/side.js"></script>
+    <script src="common/header.js"></script>
 
     <script>
         var stateman = restate({
@@ -38,12 +46,17 @@
         });
 
         stateman
-            .start({root: "/"})
             .state("index", SBPage.Index)
             .state("menu1", SBPage.menu1)
             .state("menu2", SBPage.menu2)
             .state("menu3", SBPage.menu3)
+            .start({root: "/"})
 
+    </script>
+    <script>
+        if(location.href == location.origin || location.href == location.origin + "/xgmsb-sass/"){
+            location.href = location.origin + "/xgmsb-sass/#/index";
+        }
     </script>
 </body>
 </html>

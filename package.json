@@ -1,0 +1,26 @@
+{
+  "name": "xgmsb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badbun/xgmsb.git"
+  },
+  "author": "baozi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badbun/xgmsb/issues"
+  },
+  "homepage": "https://github.com/badbun/xgmsb#readme",
+  "dependencies": {
+    "regular-state": "^0.2.1",
+    "regular-ui": "^0.1.8",
+    "regularjs": "^0.5.2",
+    "stateman": "^0.2.0",
+    "reqwest": "^2.0.5"
+  }
+}

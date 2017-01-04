@@ -3,6 +3,10 @@
  */
 (function (SBPage) {
 
+    if(!SBPage){
+        window.SBPage = SBPage = {};
+    }
+
     var menu1 = Regular.extend({
         template: __inline("../template/menu1.html")
     });
